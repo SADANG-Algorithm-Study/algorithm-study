@@ -1,6 +1,5 @@
 ### 문제 링크 
-[프로그래머스][Lv.0] 공던지기
-https://school.programmers.co.kr/learn/courses/30/lessons/120843
+[프로그래머스][Lv.0] [공던지기](https://school.programmers.co.kr/learn/courses/30/lessons/120843)
 
 ### 문제 해석
 - 친구들과 동그랗게 서서 공 던지기 게임 진행

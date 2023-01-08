@@ -1,6 +1,5 @@
 ### 문제 링크 
-[프로그래머스][Lv.1] 개인정보 수집 유효기간
-https://school.programmers.co.kr/learn/courses/30/lessons/150370
+[프로그래머스][Lv.1] [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370)
 
 ### 문제 해석
 - n개의 개인정보가 주어짐 (privacies - 함께 주어지는 정보: 개인정보 등록날짜, 약관 종류)
@@ -10,7 +9,7 @@ https://school.programmers.co.kr/learn/courses/30/lessons/150370
 - 해야하는 일: 주어진 개인정보의 유효기간을 체크하여 파기해야하는 개인정보의 index 반환
 
 ## 문제 풀이
-- 필요한 일: 문자열로 주어지는 날짜 정보(yyyy.mm.dd)들을 일수로 변환 (= yyyy*12*28+mm*28+dd)	
+- 필요한 일: 문자열로 주어지는 날짜 정보(yyyy.mm.dd)들을 일수로 변환 (= yyyy x 12 x 28+mm x 28+dd)	
 - 개인정보 유효성 체크 함수 구현: check(p)->bool
 	- p: 개인정보, 반환값: 개인정보 파기 필요 유무
 	- 개인정보 만기 일자 계산 후 오늘날짜와 비교
